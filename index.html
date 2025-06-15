@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task Tracker</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>Task Tracker</h1>
-      <ul id="tasks">
-        <li>Task 1</li>
-        <li>Task 2</li>
-        <li>Task 3</li>
-        <li>Task 4</li>
-        <li>Task 5</li>
-        <li>Task 6</li>
-      </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Task Tracker</h1>
+
+    <div class="task-input">
+      <input type="text" id="new-task" placeholder="Enter a new task...">
+      <button id="add-task-btn">Add Task</button>
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <ul id="tasks">
+      <li>Task 1 <button class="delete-btn">X</button></li>
+      <li>Task 2 <button class="delete-btn">X</button></li>
+      <li>Task 3 <button class="delete-btn">X</button></li>
+      <li>Task 4 <button class="delete-btn">X</button></li>
+      <li>Task 5 <button class="delete-btn">X</button></li>
+      <li>Task 6 <button class="delete-btn">X</button></li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
